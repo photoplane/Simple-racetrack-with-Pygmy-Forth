@@ -15,7 +15,6 @@ Example of modifications to python primitives.
 
 : turng 5 FOR FORWARDRIGHT NEXT ; ( there are 5 loops )
 
-
 : LEFT 0 ;  : RIGHT 1 ;
 
 : TURN ( n-- ) IF TURNRIGHT ELSE TURNLEFT THEN ; ( use RIGHT TURN LEFT TURN )
@@ -29,3 +28,15 @@ Example of modifications to python primitives.
 : RUN BEGIN LEFTSENSOR RIGHTSENSOR BOTH-OFF? IF GOSTRAIGHT THEN LEFTSENSOR TURN RIGHTSENSOR  TURN AGAIN ; ( the line code )
 
 : Z RUN ; ( shortcut )
+
+
+
+https://github.com/user-attachments/assets/751ad725-5244-4448-b5e0-266ddded8d50
+
+
+![ExpGauche_EN](https://github.com/user-attachments/assets/55f401d2-1304-43fc-97d5-d2c792f09a9f)
+
+
+
+![DeuxCapteurs](https://github.com/user-attachments/assets/588752c5-126c-4a1f-9bc4-f5dd88f293d3)
+
