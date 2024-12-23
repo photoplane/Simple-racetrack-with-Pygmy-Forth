@@ -1,0 +1,3 @@
+Pour avoir un déplacement satisfaisant avec une bonne précision et le moins possible d'à-coups, il faut modifier les primitives python qui correspondent aux déplacement et au rotations. On va prter la fréquence à 0,01 seconde.
+Il faut aussi modifier quelques primitive PygmyForth.
+Deux nouvelles primitive python sont installées :   MotorAvGl.fth, pour marche avant du moteur gauche, et MotorAvDw.fth, pour marche avant du moteur droit.
